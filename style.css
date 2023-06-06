@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #c1cada;
+}
+
+header{
+    background-color: #215ec7;
+    height:100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    display: flex;
+    padding: 0 30px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.logo-convert-money{
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 50px auto 40px;
+}
+
+.container{
+    padding: 20px 24px 23px;
+}
+
+lable{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+
+select, input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-left: 18px;
+    margin-bottom:24px;
+    height: 48px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    appearance: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button{
+    background:  #215ec7;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top:23px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity:0.8;
+}
+
+button:active{
+    opacity:0.6;
+}
+
+section{
+    border: 1px solid #215ec7;
+    border-radius: 20px;
+    margin-top: 36px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 12px;
+}
+
+.seta-img{
+    width:50px;
+    height:70px;
+    margin:15px 0;
+}
+
+.currency-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency-name{
+    font-size: 14px;
+    color: #777777;
+}
+
+.currency-value, .currency-value-to-convert{
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
